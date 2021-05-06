@@ -126,8 +126,9 @@ Replace 'username' with your home user name, and replace the directory with your
 
 ## Credits
 
-*Ideas-* [Avanindra Chakroborty](https://github.com/AvanindraC) (Friend)
-*Images-*
+- *Ideas-* [Avanindra Chakroborty](https://github.com/AvanindraC) (Friend)
+
+- *Images-*
     - 0 to 9 png Images - [CodeWithHarry](https://codewithharry.com)
     - background_GAME 1 - Google
     - base.png - Self Made (GNU Image Manipulation Program)
