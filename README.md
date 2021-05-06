@@ -22,7 +22,7 @@ You all have surely heard of *STAR WARS*, the mega-successful film series. It ha
 
 - Make sure Python is added to PATH 
 
-- Download the [project zip file](https://github.com/arghyagod-coder/STAR-WARS-MINIGAMES) and extract it in a folder
+- Download the [project zip file](https://github.com/arghyagod-coder/STAR-WARS-MINIGAMES/archive/refs/heads/main.zip) and extract it in a folder
 
 - Open the directory through Powershell (Windows) / Terminal (Mac) and follow the commands-
 
@@ -54,7 +54,7 @@ $ sudo apt install python-pip3
 ```
 Check your installations by running both `python3 -V` and `pip3 -V` in terminal, and if both return versions, congratulations, you installed python successfully
 
-- Now Download the project zip file and extract it to a location
+- Now Download the [project zip file](https://github.com/arghyagod-coder/STAR-WARS-MINIGAMES/archive/refs/heads/main.zip) and extract it to a location.
 
 - Run:
 
