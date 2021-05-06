@@ -32,22 +32,22 @@ while True:
         pygame.display.set_caption("Shoot the Stormtroopers")
 
         # Load images
-        RED_SPACE_SHIP = pygame.transform.scale(pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/stormtrooper.png'), (100, 90))
-        GREEN_SPACE_SHIP = pygame.transform.scale(pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/stormtrooper.png"), (100,90))
-        BLUE_SPACE_SHIP = pygame.transform.scale(pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/stormtrooper.png'), (100, 90))
+        RED_SPACE_SHIP = pygame.transform.scale(pygame.image.load('assets/stormtrooper.png'), (100, 90))
+        GREEN_SPACE_SHIP = pygame.transform.scale(pygame.image.load("assets/stormtrooper.png"), (100,90))
+        BLUE_SPACE_SHIP = pygame.transform.scale(pygame.image.load('assets/stormtrooper.png'), (100, 90))
 
 
         # Player /
-        LUKE_SKYWALKER = pygame.transform.scale(pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/luke_ship.png"), (120,110))
+        LUKE_SKYWALKER = pygame.transform.scale(pygame.image.load("assets/luke_ship.png"), (120,110))
 
         # Bullets
-        RED_BULLET = pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/pixel_laser_red.png")
-        GREEN_BULLET = pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/pixel_laser_green.png")
-        BLUE_BULLET = pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/pixel_laser_blue.png")
-        YELLOW_BULLET = pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/pixel_laser_yellow.png")
+        RED_BULLET = pygame.image.load("assets/pixel_laser_red.png")
+        GREEN_BULLET = pygame.image.load("assets/pixel_laser_green.png")
+        BLUE_BULLET = pygame.image.load("assets/pixel_laser_blue.png")
+        YELLOW_BULLET = pygame.image.load("assets/pixel_laser_yellow.png")
 
         # Background
-        BG = pygame.transform.scale(pygame.image.load("/home/arghya/Desktop/Programming/STAR-WARS-game/assets/background_space.png"), (WIDTH, HEIGHT))
+        BG = pygame.transform.scale(pygame.image.load("assets/background_space.png"), (WIDTH, HEIGHT))
 
         # Using OOPs to make a laser class
         class Laser:
@@ -302,9 +302,9 @@ while True:
         GROUNDY = SCREENHEIGHT * 0.8
         GAME_SPRITES = {}
         GAME_SOUNDS = {}
-        PLAYER = '/home/arghya/Desktop/Programming/STAR-WARS-game/assets/luke_ship.png'
-        BACKGROUND = '/home/arghya/Desktop/Programming/STAR-WARS-game/assets/background_space.png'
-        PIPE = '/home/arghya/Desktop/Programming/STAR-WARS-game/assets/debris.png'
+        PLAYER = '/assets/luke_ship.png'
+        BACKGROUND = '/assets/background_space.png'
+        PIPE = '/assets/debris.png'
 
         def welcomeScreen():
             """
@@ -480,30 +480,30 @@ while True:
             FPSCLOCK = pygame.time.Clock()
             pygame.display.set_caption('ESCAPE THE PRESSURE LOOP')
             GAME_SPRITES['numbers'] = ( 
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/0.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/1.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/2.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/3.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/4.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/5.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/6.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/7.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/8.png').convert_alpha(),
-                pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/9.png').convert_alpha(),
+                pygame.image.load('assets/0.png').convert_alpha(),
+                pygame.image.load('assets/1.png').convert_alpha(),
+                pygame.image.load('assets/2.png').convert_alpha(),
+                pygame.image.load('assets/3.png').convert_alpha(),
+                pygame.image.load('assets/4.png').convert_alpha(),
+                pygame.image.load('assets/5.png').convert_alpha(),
+                pygame.image.load('assets/6.png').convert_alpha(),
+                pygame.image.load('assets/7.png').convert_alpha(),
+                pygame.image.load('assets/8.png').convert_alpha(),
+                pygame.image.load('assets/9.png').convert_alpha(),
             )
 
-            GAME_SPRITES['message'] =pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/message.png').convert_alpha()
-            GAME_SPRITES['base'] =pygame.image.load('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/base.png').convert_alpha()
+            GAME_SPRITES['message'] =pygame.image.load('assets/message.png').convert_alpha()
+            GAME_SPRITES['base'] =pygame.image.load('assets/base.png').convert_alpha()
             GAME_SPRITES['pipe'] =(pygame.transform.rotate(pygame.image.load( PIPE).convert_alpha(), 180), 
             pygame.image.load(PIPE).convert_alpha()
             )
 
             # Game sounds
-            GAME_SOUNDS['die'] = pygame.mixer.Sound('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/die.wav')
-            GAME_SOUNDS['hit'] = pygame.mixer.Sound('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/hit.wav')
-            GAME_SOUNDS['point'] = pygame.mixer.Sound('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/point.wav')
-            GAME_SOUNDS['swoosh'] = pygame.mixer.Sound('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/swoosh.wav')
-            GAME_SOUNDS['wing'] = pygame.mixer.Sound('/home/arghya/Desktop/Programming/STAR-WARS-game/assets/wing.wav')
+            GAME_SOUNDS['die'] = pygame.mixer.Sound('assets/die.wav')
+            GAME_SOUNDS['hit'] = pygame.mixer.Sound('assets/hit.wav')
+            GAME_SOUNDS['point'] = pygame.mixer.Sound('assets/point.wav')
+            GAME_SOUNDS['swoosh'] = pygame.mixer.Sound('assets/swoosh.wav')
+            GAME_SOUNDS['wing'] = pygame.mixer.Sound('assets/wing.wav')
 
             GAME_SPRITES['background'] = pygame.image.load(BACKGROUND).convert()
             GAME_SPRITES['player'] = pygame.transform.rotate((pygame.image.load(PLAYER).convert_alpha()), 270)
