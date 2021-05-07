@@ -302,9 +302,9 @@ while True:
         GROUNDY = SCREENHEIGHT * 0.8
         GAME_SPRITES = {}
         GAME_SOUNDS = {}
-        PLAYER = '/assets/luke_ship.png'
-        BACKGROUND = '/assets/background_space.png'
-        PIPE = '/assets/debris.png'
+        PLAYER = 'assets/luke_ship.png'
+        BACKGROUND = 'assets/background_space.png'
+        PIPE = 'assets/debris.png'
 
         def welcomeScreen():
             """
