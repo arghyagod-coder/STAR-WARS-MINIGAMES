@@ -124,6 +124,19 @@ Replace 'username' with your home user name, and replace the directory with your
 
 <br>
 
+## Version Details
+
+**Current Version (Stable)**- 1.2.0
+
+#### Version Advantages
+
+- 1.2.0 Ver has the following new/updated features
+   - Updated Controls- No more lagging Bullets
+   - Higher FPS Settings ensures smooth gameplay
+   - Filesystems Managed
+   - Code improved and managed
+   - Customizable FPS 
+
 ## Credits
 
 - *Ideas-* [Avanindra Chakroborty](https://github.com/AvanindraC) (Friend)
