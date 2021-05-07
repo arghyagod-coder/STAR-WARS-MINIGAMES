@@ -83,6 +83,25 @@ Replace 'username' with your home user name, and replace the directory with your
 
 - Choose your game
 
+##### Important- Change FPS Settings:
+
+As you know, low fps is makes your game a lil slow but also is good for Low End PC
+
+You can customize your FPS using the following guide:
+
+- Open the game 'main.py' file in a text editor 
+([VS Code](https://code.visualstudio.org), [Sublime Text 3 ](https://sublimetext.com/3), [Thonny](https://thonny.org), [PyCharm](https://jetbrains.com/pycharm) etc.)
+
+- To Change FPS of game 1 (Escape Pressure Point):
+  - Navigate to line 298
+  - Change the FPS Value to your preferred value, by default its 32
+  - Save the file and exit
+
+- To Change FPS of game 1 (Escape Pressure Point):
+  - Navigate to line 180
+  - Change the FPS Value to your preferred value, by default its 60
+  - Save the file and exit
+
 ### Game 1 -
 
 ![Esc_Loop](ext_files/Esc_Loop.png)
